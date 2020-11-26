@@ -1,0 +1,137 @@
+<middleware>
+  <middleware>
+    <name>core-make</name>
+    <id>core-make</id>
+    <uri>https://github.com/cypresssemiconductorco/core-make</uri>
+    <desc>Core Make build system provides generic build files and scripts for building and programming ModusToolbox applications.</desc>
+    <category>Base Libraries</category>
+    <req_capabilities></req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-pdl-cat2</name>
+    <id>mtb-pdl-cat2</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat2</uri>
+    <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <category>PSoC 4 Base Libraries</category>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-cat2</name>
+    <id>mtb-hal-cat2</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat2</uri>
+    <desc>PSoC 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 4 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
+    <category>PSoC 4 Base Libraries</category>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>recipe-make-cat2</name>
+    <id>recipe-make-cat2</id>
+    <uri>https://github.com/cypresssemiconductorco/recipe-make-cat2</uri>
+    <desc>PSoC 4 Make build recipe provides the make files and scripts for building and programming PSoC 4 applications.</desc>
+    <category>PSoC 4 Base Libraries</category>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>core-lib</name>
+    <id>core-lib</id>
+    <uri>https://github.com/cypresssemiconductorco/core-lib</uri>
+    <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
+    <category>Base Libraries</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.4 release</num>
+        <commit>release-v1.1.4</commit>
+        <desc>1.1.4 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>retarget-io</name>
+    <id>retarget-io</id>
+    <uri>https://github.com/cypresssemiconductorco/retarget-io</uri>
+    <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>capsense</name>
+    <id>capsense</id>
+    <uri>https://github.com/cypresssemiconductorco/capsense</uri>
+    <desc>Capacitive sensing solution (CapSense) enabling a variety of applications such as touch, gesture and proximity detection.</desc>
+    <category>MCU Middleware</category>
+    <req_capabilities>capsense</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>3.0.0 alpha release</num>
+        <commit>release-v3.0.0-alpha1</commit>
+        <desc>3.0.0 alpha release</desc>
+      </version>
+    </versions>
+  </middleware>
+</middleware>

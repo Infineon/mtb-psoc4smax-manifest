@@ -1,0 +1,45 @@
+<boards>
+  <board>
+    <id>CY8CKIT-041S-MAX</id>
+    <category>PSoC 4 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-041S-MAX</board_uri>
+    <chips>
+      <mcu>CY8C4149AZI-S598</mcu>
+    </chips>
+    <name>CY8CKIT-041S-MAX</name>
+    <summary>The PSoC 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CapSense solution using the PSoC 4100S Max device.</summary>
+    <prov_capabilities>psoc4 mcu_gp arduino j2 led switch capsense msc msc_button msc_trackpad msc_slider msc_proximity smart_io memory memory_i2c cy8ckit_041s_max</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>World's Most Reliable, Lowest Power CapSense Solution</li>
+        <li>On-board Programmer and Debugger</li>
+        <li>Ready-to-Use CapSense Buttons</li>
+        <li>Ready-to-Use CapSense Trackpad</li>
+        <li>Ready-to-Use CapSense Slider</li>
+        <li>Ready-to-Use CapSense Proximity</li>
+        <li>Thermistor</li>
+        </ul><p/>
+
+        <div class="category">Kit Contents:</div><ul>
+        <li>CY8CKIT-041S-Max PSoC 4100S Max Pioneer Board</li>
+        <li>CY8CKIT-041S-Max Capacitive Sensing Expansion Board</li>
+        <li>USB Standard-A to Micro-B cable</li>
+        <li>Four press-fit connectors (for Arduino headers)</li>
+        <li>Six jumper wires </li>
+        <li>40 pin FPC cable</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.cypress.com/documentation/development-kitsboards/psoc-4100s-max-pioneer-kit-cy8ckit-041s-max</documentation_url>
+    <versions>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+</boards>
