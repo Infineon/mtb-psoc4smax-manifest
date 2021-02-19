@@ -7,7 +7,7 @@
         <dependees>
           <dependee>
             <id>capsense</id>
-            <commit>release-v3.0.0-alpha1</commit>
+            <commit>release-v3.0.0-alpha2</commit>
           </dependee>
           <dependee>
             <id>core-lib</id>
@@ -36,7 +36,7 @@
         <dependees>
           <dependee>
             <id>capsense</id>
-            <commit>release-v3.0.0-alpha1</commit>
+            <commit>release-v3.0.0-alpha2</commit>
           </dependee>
           <dependee>
             <id>core-lib</id>

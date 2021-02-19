@@ -128,9 +128,14 @@
     <req_capabilities>capsense</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
-        <num>3.0.0 alpha release</num>
+        <num>3.0.0 alpha2 release</num>
+        <commit>release-v3.0.0-alpha2</commit>
+        <desc>3.0.0 alpha2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>3.0.0 alpha1 release</num>
         <commit>release-v3.0.0-alpha1</commit>
-        <desc>3.0.0 alpha release</desc>
+        <desc>3.0.0 alpha1 release</desc>
       </version>
     </versions>
   </middleware>
