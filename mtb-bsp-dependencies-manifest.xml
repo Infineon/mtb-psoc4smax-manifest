@@ -23,7 +23,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat2</id>
-            <commit>release-v1.1.0</commit>
+            <commit>release-v1.0.0</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat2</id>
@@ -52,7 +52,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat2</id>
-            <commit>release-v1.1.0</commit>
+            <commit>release-v1.0.0</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat2</id>

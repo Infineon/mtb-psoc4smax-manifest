@@ -8,13 +8,13 @@
     </chips>
     <name>CY8CKIT-041S-MAX</name>
     <summary>The PSoC 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CapSense solution using the PSoC 4100S Max device.</summary>
-    <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma hal i2c j2 led lin lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_trackpad opamp psoc4 smart_io spi switch uart</prov_capabilities>
+    <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma hal i2c j2 led lin lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_touchpad opamp psoc4 smart_io spi switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>World's Most Reliable, Lowest Power CapSense Solution</li>
         <li>On-board Programmer and Debugger</li>
         <li>Ready-to-Use CapSense Buttons</li>
-        <li>Ready-to-Use CapSense Trackpad</li>
+        <li>Ready-to-Use CapSense Touchpad</li>
         <li>Ready-to-Use CapSense Slider</li>
         <li>Ready-to-Use CapSense Proximity</li>
         <li>Thermistor</li>
@@ -23,10 +23,9 @@
         <div class="category">Kit Contents:</div><ul>
         <li>CY8CKIT-041S-Max PSoC 4100S Max Pioneer Board</li>
         <li>CY8CKIT-041S-Max Capacitive Sensing Expansion Board</li>
-        <li>USB Standard-A to Micro-B cable</li>
-        <li>Four press-fit connectors (for Arduino headers)</li>
-        <li>Six jumper wires </li>
-        <li>40 pin FPC cable</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Six jumper wires</li>
+        <li>40 pin FFC cable</li>
         <li>Quick Start Guide</li>
         </ul>
       ]]></description>
