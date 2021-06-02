@@ -10,7 +10,7 @@
     </app-manifest>
   </app-manifest-list>
   <middleware-manifest-list>
-    <middleware-manifest>
+    <middleware-manifest dependency-url="https://github.com/cypresssemiconductorco/mtb-psoc4smax-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml">
       <uri>https://github.com/cypresssemiconductorco/mtb-psoc4smax-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml</uri>
     </middleware-manifest>
   </middleware-manifest-list>

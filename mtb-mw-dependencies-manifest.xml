@@ -1,0 +1,25 @@
+<dependencies>
+  <depender>
+    <id>recipe-make-cat2</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.2</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.8.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+</dependencies>

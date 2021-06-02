@@ -8,7 +8,7 @@
     </chips>
     <name>CY8CKIT-041S-MAX</name>
     <summary>The PSoC 4100S Max Pioneer Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CapSense solution using the PSoC 4100S Max device.</summary>
-    <prov_capabilities>psoc4 mcu_gp arduino j2 led switch capsense msc msc_button msc_trackpad msc_slider msc_proximity smart_io memory memory_i2c cy8ckit_041s_max</prov_capabilities>
+    <prov_capabilities>adc arduino can capsense cat2 comp cy8ckit_041s_max dma hal i2c j2 led lin lptimer mcu_gp memory memory_i2c msc msc_button msc_proximity msc_slider msc_trackpad opamp psoc4 smart_io spi switch uart</prov_capabilities>
     <description><![CDATA[
         <div class="category">Kit Features:</div><ul>
         <li>World's Most Reliable, Lowest Power CapSense Solution</li>

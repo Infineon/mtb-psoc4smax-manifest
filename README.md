@@ -7,4 +7,4 @@
 The manifest files contain a list of URIs that the ModusToolbox software uses to load PSoC 4100S Max content (BSP, Middleware and Code Examples). This manifest is used by the ModusToolbox software.
 
 ---
-© Cypress Semiconductor Corporation, 2020.
+© Cypress Semiconductor Corporation, 2020-2021.
